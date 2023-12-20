@@ -81,6 +81,7 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
+    
     res.status(200).json(deletedTag);
   } catch (err) {
     console.log(err);
